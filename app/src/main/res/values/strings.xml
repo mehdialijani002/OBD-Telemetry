@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">OBD Telemetry</string>
+    <string name="cluster_title">OBD&#160;TELEMETRY</string>
+    <string name="cluster_subtitle">TAP STATUS TO SWITCH SOURCE</string>
+    <string name="toast_demo">Demo mode — generated data</string>
+    <string name="toast_live">Live mode — MQTT feed</string>
+    <string name="status_connecting">CONNECTING</string>
+    <string name="status_connected">LIVE</string>
+    <string name="status_demo">DEMO</string>
+    <string name="status_disconnected">OFFLINE</string>
+    <string name="label_speed">SPEED</string>
+    <string name="label_rpm">RPM x1000</string>
+    <string name="footer_limit">SPEED LIMIT</string>
+    <string name="footer_limit_value">120 km/h</string>
+    <string name="footer_status">STATUS</string>
+    <string name="footer_status_normal">NORMAL</string>
+    <string name="footer_status_warning">OVER LIMIT</string>
+</resources>

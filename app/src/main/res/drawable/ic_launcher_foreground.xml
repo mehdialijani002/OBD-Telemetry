@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Tick marks around the dial -->
+    <path
+        android:strokeColor="#6B7480"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:pathData="M39.86,68.14 L36.68,71.32 M34.68,59.18 L30.33,60.34 M34.68,48.82 L30.33,47.66 M39.86,39.86 L36.68,36.68 M48.82,34.68 L47.66,30.33 M59.18,34.68 L60.34,30.33 M68.14,39.86 L71.32,36.68 M73.32,48.82 L77.67,47.66 M73.32,59.18 L77.67,60.34 M68.14,68.14 L71.32,71.32" />
+
+    <!-- Coloured speed arc: green -> amber -> red -->
+    <path
+        android:strokeColor="#00E676"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M32.79,75.21 A30,30 0 0 1 61.76,25.02" />
+    <path
+        android:strokeColor="#FFC400"
+        android:strokeWidth="5"
+        android:strokeLineCap="butt"
+        android:pathData="M61.76,25.02 A30,30 0 0 1 82.98,46.24" />
+    <path
+        android:strokeColor="#FF3B30"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M82.98,46.24 A30,30 0 0 1 75.21,75.21" />
+
+    <!-- Needle -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M75.52,41.27 L55.63,56.75 L47.97,57.56 L52.37,51.25 Z" />
+
+    <!-- Centre hub -->
+    <path
+        android:fillColor="#0B0E13"
+        android:pathData="M47,54 a7,7 0 1 0 14,0 a7,7 0 1 0 -14,0 z" />
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="1.8"
+        android:pathData="M47,54 a7,7 0 1 0 14,0 a7,7 0 1 0 -14,0 z" />
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M51.2,54 a2.8,2.8 0 1 0 5.6,0 a2.8,2.8 0 1 0 -5.6,0 z" />
+</vector>

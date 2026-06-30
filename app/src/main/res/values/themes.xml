@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme — locked to a dark instrument-cluster look. -->
+    <style name="Base.Theme.OBD_Telemetry_App" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/cluster_background</item>
+        <item name="android:statusBarColor">@color/cluster_background</item>
+        <item name="android:navigationBarColor">@color/cluster_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="colorPrimary">@color/cluster_accent</item>
+    </style>
+
+    <style name="Theme.OBD_Telemetry_App" parent="Base.Theme.OBD_Telemetry_App" />
+</resources>

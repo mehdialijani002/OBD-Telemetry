@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Dark theme mirrors the base — the cluster look is always dark. -->
+    <style name="Base.Theme.OBD_Telemetry_App" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/cluster_background</item>
+        <item name="android:statusBarColor">@color/cluster_background</item>
+        <item name="android:navigationBarColor">@color/cluster_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="colorPrimary">@color/cluster_accent</item>
+    </style>
+</resources>

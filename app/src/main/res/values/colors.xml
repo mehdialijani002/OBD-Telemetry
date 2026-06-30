@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Instrument cluster palette -->
+    <color name="cluster_background">#FF05070A</color>
+    <color name="cluster_surface">#FF11151B</color>
+    <color name="cluster_surface_alt">#FF1B212A</color>
+    <color name="cluster_divider">#FF2A313B</color>
+    <color name="cluster_text">#FFF5F7FA</color>
+    <color name="cluster_text_dim">#FF7A828D</color>
+    <color name="cluster_accent">#FF00E5FF</color>
+    <color name="cluster_accent_rpm">#FFFF6D00</color>
+    <color name="cluster_green">#FF00E676</color>
+    <color name="cluster_amber">#FFFFC400</color>
+    <color name="cluster_red">#FFFF1744</color>
+</resources>

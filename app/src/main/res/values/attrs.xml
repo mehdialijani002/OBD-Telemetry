@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GaugeView">
+        <!-- Maximum value the gauge can display (full-scale deflection). -->
+        <attr name="gaugeMaxValue" format="float" />
+        <!-- Value at which the redline / danger zone begins. -->
+        <attr name="gaugeRedline" format="float" />
+        <!-- Number of major (labelled) tick marks, excluding the 0 mark. -->
+        <attr name="gaugeMajorTicks" format="integer" />
+        <!-- Minor ticks drawn between each pair of major ticks. -->
+        <attr name="gaugeMinorTicks" format="integer" />
+        <!-- Unit label shown under the digital readout (e.g. km/h, rpm). -->
+        <attr name="gaugeUnit" format="string" />
+        <!-- Caption shown above the digital readout (e.g. SPEED). -->
+        <attr name="gaugeLabel" format="string" />
+        <!-- Tick labels are divided by this before being drawn (RPM uses 1000). -->
+        <attr name="gaugeLabelDivisor" format="float" />
+        <!-- Suffix appended to tick labels (e.g. "x1000" handled via caption instead). -->
+        <attr name="gaugeAccent" format="color" />
+    </declare-styleable>
+</resources>
